@@ -1,2 +1,4 @@
 docker*
 backend/db.sqlite3
+__*cache*__
+
