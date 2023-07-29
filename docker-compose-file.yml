@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  django-react-rev5:
+    image: centos-python38:0.1
+    ports:
+      - "8005:8000"
+      - "3005:3000"
+    volumes:
+      - {local path}:/home/root
+    tty: true
+
